@@ -17,6 +17,7 @@ class ShapeFactory extends ColorShapeFactory
         if(!file_exists($file)){
             return ;
         }
-        return new $shape();
+        $shape = __NAMESPACE__."\\"."$shape";//此处注意在命名空间中，使用动态语言特征，需必须使用完全限定名称（包括命名空间前缀的类名称）
+        return new $shape;
     }
 }
