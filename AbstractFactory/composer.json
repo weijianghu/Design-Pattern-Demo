@@ -1,0 +1,15 @@
+{
+    "name": "v1.0/abstractfactory",
+    "description": "abstractfactory",
+    "authors": [
+        {
+            "name": "jianghu",
+            "email": "76112703@qq.com"
+        }
+    ],
+    "autoload":{
+        "classmap": ["lib/"]
+    },
+    "minimum-stability": "stable",
+    "require": {}
+}
